@@ -1,43 +1,39 @@
 {
   "pages": [
-    "pages/finance/finance",
     "pages/mortgage/mortgage",
+    "pages/finance/finance",
     "pages/finance/func/func",
     "pages/wuxian-yijin/wxyj",
     "pages/logs/logs",
-    "pages/mortgage/detail/detail"
+    "pages/mortgage/detail/detail",
+    "pages/user/user"
   ],
   "window": {
     "navigationBarTextStyle": "white",
-    "navigationBarBackgroundColor": "#1AAD19",
-    "backgroundTextStyle": "black",
+    "navigationBarBackgroundColor": "#1b94f5",
+    "backgroundTextStyle": "light",
     "backgroundColor": "#f8f8f8",
-    "navigationBarTitleText": "Finance"
+    "navigationBarTitleText": "房贷计算器"
   },
   "tabBar": {
     "color": "#7A7E83",
-    "selectedColor": "#3cc51f",
+    "selectedColor": "#fff",
     "borderStyle": "black",
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "#1b94f5",
     "list": [
       {
-        "pagePath": "pages/finance/finance",
-        "iconPath": "image/icon_component.png",
-        "selectedIconPath": "image/icon_component_HL.png",
-        "text": "金融公式"
-      },
-      {
         "pagePath": "pages/mortgage/mortgage",
-        "iconPath": "image/icon_API.png",
-        "selectedIconPath": "image/icon_API_HL.png",
-        "text": "房贷计算"
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home_s.png",
+        "text": "首页"
       },
       {
-        "pagePath": "pages/wuxian-yijin/wxyj",
-        "iconPath": "image/icon_API.png",
-        "selectedIconPath": "image/icon_API_HL.png",
-        "text": "五险一金"
+        "pagePath": "pages/user/user",
+        "iconPath": "image/user.png",
+        "selectedIconPath": "image/user_s.png",
+        "text": "我的"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

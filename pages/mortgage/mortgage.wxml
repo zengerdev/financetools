@@ -88,15 +88,8 @@
                 <view class="weui-cell__bd weui-cell__ft">元</view>
               </view>
             </view>
-            <view class="btn-area">
-              <button type="primary" bindtap="showDetail" disabled="{{activeIndex==2?!(commercialTotal&&gjjTotal): (activeIndex==1?!gjjTotal: !commercialTotal)}}">计算</button>
-            </view>
-            <view class="page__hd baseline-explanation">
-              <view class="page__title">注意事项</view>
-              <view class="page__desc">
-                7成房贷作为国家给予每个人一生一次最大的福利，正确的使用方式是：
-                30年等额本息商业贷款，能贷多少贷多少！
-              </view>
+            <view class="btn-area" style="background-color:#FFF;">
+              <button type="primary" style="background-color:#4aabf8;" bindtap="showDetail" disabled="{{activeIndex==2?!(commercialTotal&&gjjTotal): (activeIndex==1?!gjjTotal: !commercialTotal)}}">计算</button>
             </view>
           </view>
         </view>
